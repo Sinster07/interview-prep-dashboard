@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Interview Prep Dashboard</title>
+    <script src="./vendor/tailwind.browser.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#172033",
+              muted: "#617086",
+              line: "#d8e1e8",
+              brand: "#087f7b"
+            },
+            boxShadow: {
+              soft: "0 10px 24px rgba(24, 32, 47, 0.08)"
+            }
+          }
+        }
+      };
+    </script>
+    <style>
+      body {
+        background: #f5f7fa;
+        color: #172033;
+      }
+
+      pre {
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./vendor/react.production.min.js"></script>
+    <script src="./vendor/react-dom.production.min.js"></script>
+    <script src="./vendor/babel.min.js"></script>
+    <script src="./src/questions.js"></script>
+    <script type="text/babel" src="./src/App.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "interview-prep-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local React interview prep dashboard for JavaScript, React, DSA, and System Design.",
+  "scripts": {
+    "dev": "python3 -m http.server 4173"
+  },
+  "dependencies": {
+    "react": "vendored",
+    "react-dom": "vendored",
+    "tailwindcss": "browser-vendored"
+  }
+}
